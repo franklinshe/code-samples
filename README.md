@@ -19,9 +19,14 @@ if (flock(fd, LOCK_UN) == -1) {
     exit(1);
 ```
 
-## `exchange.sol` Decentralized
+## `exchange.sol` Decentralized CFMM Exchange
 
 After taking a course on Blockchain and Cryptocurrency, I learned about permissionless and secure market protocols and implemented a constant function market maker (CFMM) modeled after the Uniswap V1 Protocol. I also created an ERC-20 token and a web client allowing users to swap tokens or provide or remove liquidity. Here's a [code sample](https://github.com/franklinshe/code-samples/blob/master/exchange.sol) of the smart contract for the exchange and an intuitive diagram of a sandwich attack, a form of front-running, that this implementation attempts to curb through limits on slippage.
 
 ![image](https://github.com/franklinshe/code-samples/assets/65642896/9a4f9f89-6641-4706-9d12-167378259c33)
+
+### Other Projects
+
+- [Command-line TeX-like compiler](https://github.com/franklinshe/tex-macro-processor) in C
+- [Ethereum blockchain backend buy/sell marketplace](https://github.com/franklinshe/marketplace-dapp) in React and Solidity
 
