@@ -7,7 +7,7 @@ import "hardhat/console.sol";
 
 
 contract TokenExchange is Ownable {
-    address tokenAddr = 0x5FbDB2315678afecb367f032d93F642f64180aa3;
+    address tokenAddr = 0x5FbDB2315678afecb367f032d93F642f641123be;
     Token public token = Token(tokenAddr);                                
 
     // Liquidity pool for the exchange
