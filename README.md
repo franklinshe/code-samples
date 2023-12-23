@@ -1,5 +1,4 @@
 # code-samples
-Some snippets of code from various projects I've worked on that I'm particularly proud of!
 
 ## `penguin_lr_pca.ipynb` Classification with Logistic Regression and PCA, Python, Fall 2021
 
